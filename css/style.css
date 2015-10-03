@@ -1,5 +1,5 @@
 /*
-Project Name: Relaxr Homework Submissions
+Project Name: Relaxr Landing Page
 Client: Relaxr
 Author: Meisha Hill
 Developer @GA in NYC
@@ -50,8 +50,8 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     /*background: url(images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+    /*background-size: cover;*/
 }
 
 
@@ -66,18 +66,125 @@ body {
   height: 500px;
 }
 
-header {
+/*header {
 
-}
+}*/
 
 footer {
-
+  font-size: 9px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #121212;
+  color: FFFFFF;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+#top_container{
+    width: 100%;
+    background: url(images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    padding: 20px 10px 20px 50px;
+}
+
+#top_container blockquote{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: FFFFFF;
+}
+
+.top_button{
+  font-weight: bolder;
+  font-size: 14px;
+  border: 5px;
+  background-color: F9E42E;
+  color; #606161;
+  padding: 5px 15px 5px 15px;
+
+}
+
+#top_container h2{
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#middle_container{
+  background-color:#f0efef;
+  height: 220px;
+  color: #606161;
+}
+
+#middle_container blockquote{
+  float: left;
+  width: 65%;
+  padding:  20px 10px 20px 50px; 
+}
+
+#bottom_container{
+  width: 100%;
+     background-image: url(images/testimonial_bg.jpg);
+     background-repeat: no-repeat;
+     height: 200px;
+}
+
+#bottom_container blockquote{
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding:  20px 100px 10px 100px; 
+}
+
+#bottom_container p{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#yellow_band{
+  background-color:#f9e42e;
+  text-align: center;
+  height: 44px;
+}
+
+.bottom_button{
+  font-weight: bolder;
+  font-size: 12px;
+  border: 5px;
+  background-color:#033048;
+  color:#FFFFFF;
+  margin: 10px 0px 10px 0px; 
+  padding: 5px 15px 5px 15px;
+}
+
+#final_container{
+  background-color:#121212;
+  padding:  15px 100px 10px 100px; 
+}
+
+#final_container p{
+  font-weight: bolder;
+  font-size: 24px;
+  color: #f9e42e;
+  text-align: center;
+}
 
 
+/*h2{
+  font-weight:bolder;
+  font-size: 24px;
+}*/
+
+h3{
+  font-weight: bold;
+  font-size: 20px;
+}
 
