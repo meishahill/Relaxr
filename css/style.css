@@ -86,13 +86,13 @@ footer {
     width: 100%;
     background: url(images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
+    background-position: 60%;
     text-align: center;
     height: 300px;
     padding: 20px 10px 20px 50px;
 }
 
 #top_container blockquote{
-  font-weight: bold;
   font-size: 24px;
   text-align: center;
   color: FFFFFF;
@@ -123,19 +123,25 @@ footer {
 
 #middle_container blockquote{
   float: left;
+  font-weight: lighter;
   width: 65%;
   padding:  20px 10px 20px 50px; 
+}
+
+.list{
+  padding: 0px 0px 0px 50px; 
 }
 
 #bottom_container{
   width: 100%;
      background-image: url(images/testimonial_bg.jpg);
-     background-repeat: no-repeat;
+     background-size:cover;
      height: 200px;
 }
 
 #bottom_container blockquote{
   font-style: italic;
+  font-weight: lighter;
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
@@ -143,7 +149,6 @@ footer {
 }
 
 #bottom_container p{
-  font-weight: bold;
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
@@ -168,6 +173,7 @@ footer {
 #final_container{
   background-color:#121212;
   padding:  15px 100px 10px 100px; 
+  text-align: center;
 }
 
 #final_container p{
@@ -177,6 +183,10 @@ footer {
   text-align: center;
 }
 
+.small{
+  padding: 10px 15px 40px 15px;
+}
+  
 
 /*h2{
   font-weight:bolder;
